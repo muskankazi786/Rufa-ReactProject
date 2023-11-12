@@ -1,0 +1,16 @@
+/* SearchResult.css */
+
+.search-result {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #8a2be2, #00ff00); /* Purple to Green gradient */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.search-result:hover {
+  background: linear-gradient(45deg, #9400d3, #32cd32); /* Darker Purple to Darker Green gradient on hover */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White box shadow on hover */
+}

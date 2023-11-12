@@ -1,0 +1,37 @@
+/* SearchBar.css */
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+}
+
+#search-icon {
+  position: absolute;
+  left: 10px;
+  color: white; /* Change the color as needed */
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 35px 10px 30px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+  background-color: #333; /* Change the background color as needed */
+  color: white; /* Change the text color as needed */
+}
+
+input::placeholder {
+  color: #888; /* Change the placeholder color as needed */
+}
+
+input:focus {
+  background-color: #555; /* Change the background color on focus as needed */
+}
+
+/* Add any additional styles or animations based on your preferences */
